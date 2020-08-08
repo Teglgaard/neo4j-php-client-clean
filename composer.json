@@ -41,12 +41,6 @@
         "phpunit/phpunit": "^4.0",
         "symfony/stopwatch": "^3.0"
     },
-    "repositories": {
-        "repo-name": {
-            "type": "vcs",
-            "url": "https://github.com/Teglgaard/neo4j-bolt-php.git"
-        }
-    },
     "autoload": {
         "psr-4": {
             "GraphAware\\Neo4j\\Client\\": "src/"
